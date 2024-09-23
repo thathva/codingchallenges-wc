@@ -1,5 +1,10 @@
 Code idea inspired from: https://codingchallenges.fyi/challenges/challenge-wc/
 
+### Solution
+1. Use generator to stream data instead of loading the entire text into memory at once.
+2. Used argparse library to handle command line arguments. To use it like an actual tool, consider using Pyinstaller to convert it into an exe file and store it in Environment Variables.
+3. For further optimization, use a hashmap or some storage to store unique identifiers of the file, so that the details can be fetched from this storage instead of recalculating.
+
 ## Build Your Own wc Tool
 
 This challenge is to build your own version of the Unix command line tool wc!
